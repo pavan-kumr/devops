@@ -1,0 +1,15 @@
+node
+{
+stage("build")
+{
+echo"build the project"
+}
+stage("test")
+{
+echo "testing the job"
+}
+stage("deploy")
+{
+ echo "deploying the job"
+}
+}
